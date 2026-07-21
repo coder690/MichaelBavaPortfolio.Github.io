@@ -109,7 +109,7 @@
     /* text-align: center; */
     font-size: 1.2rem;
     color: var(--text-color-secondary);
-    line-height: 1.6;
+    line-height: 1.8rem;
 }
 
 .main-container{
@@ -259,6 +259,14 @@
     text-decoration: bolder;
     scale: 1.2;
     transition: 0.3s;
+}
+
+.currentWork{
+    color: var(--text-color-secondary);
+    text-align: center;
+    padding: 35px 0px;
+    border-radius: 50px;
+    font-size: larger;
 }
 
 /* Compatibility */
