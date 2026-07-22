@@ -261,7 +261,30 @@
     transition: 0.3s;
 }
 
+.currentlyWorkingOn {
+    margin: auto;
+    padding: 0;
+}
+
 .currentWork{
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+
+    border-radius: 22px;
+    border: 1px solid #36506f;
+    background: var(--background-color);
+}
+
+.currentDate {
+    background: #ff0000;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-left: 105px;
+}
+.currentWork-text{
     color: var(--text-color-secondary);
     text-align: center;
     padding: 35px 0px;
